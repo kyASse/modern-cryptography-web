@@ -7,32 +7,30 @@ export default function DashboardPage() {
     <div>
       <section className='flex flex-col items-center justify-center py-24'>
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
-          {t('An')}{' '}
+          {t('Modern')}{' '}
           <span className='bg-span-bg bg-clip-text text-transparent'>
-            {t('Booster')}
+            {t('Cryptography')}
           </span>
           <br />
           {t('to_Your_NextJS_Apps')}
         </h1>
         <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
           {t(
-            'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
+            'subText'
           )}
         </div>
         <div className='mt-4 flex flex-row gap-4'>
           <a
-            href='https://github.com/new?template_name=nextjs-template&template_owner=yahyaparvar'
-            target='_blank'
+            href='#'
           >
-            <Button rounded size='large'>
-              {t('Use_Template')}
+            <Button rounded size='medium'>
+              {t('Get_Started')}
             </Button>
           </a>
           <a
-            href='https://github.com/yahyaparvar/nextjs-template'
-            target='_blank'
+            href='#'
           >
-            <Button rounded size='large' variant='secondary'>
+            <Button rounded size='medium' variant='secondary'>
               {t('Learn_More')}
             </Button>
           </a>
