@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl'
 import { FC } from 'react'
 import GithubIcon from '../../icons/github'
 import LogoIcon from '../../icons/logo'
-import FlyoutMenu from  './FlyoutMenu'
+import { FlyoutMenu }  from  './FlyoutMenu'
 import LangSwitcher from './LangSwitcher'
 import ThemeSwitch from './ThemeSwitch'
 interface Props {
@@ -28,7 +28,7 @@ export const Header: FC<Props> = ({ locale }) => {
             {t('About')}
           </Link>
           <a href=''>{t('Support')}</a>
-          <FlyoutMenu/>
+          <FlyoutMenu locale={''} />
         </nav>
         <ThemeSwitch />
         <LangSwitcher />
