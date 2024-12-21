@@ -30,6 +30,7 @@
     "next-intl": "^3.11.3",
     "next-themes": "^0.2.1",
     "nextjs-toploader": "^1.6.12",
+    "node-rsa": "^1.1.1",
     "react": "^18.2.0",
     "react-day-picker": "^8.10.0",
     "react-dom": "^18.2.0",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^20.11.19",
+    "@types/node-rsa": "^1.1.4",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "autoprefixer": "^10.4.17",
